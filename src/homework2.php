@@ -14,3 +14,4 @@ $sum = $value1 + $value2;
 $average = $sum / 2;
 
 echo "Sum of two values: $sum \n";
+echo "Average: $average \n";
