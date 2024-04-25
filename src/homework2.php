@@ -15,3 +15,8 @@ $average = $sum / 2;
 
 echo "Sum of two values: $sum \n";
 echo "Average: $average \n";
+
+$bool = true;
+if ( $bool ){
+
+}
