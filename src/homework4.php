@@ -10,6 +10,7 @@ $result = match($color){
     4 => "brown",
     5 => "violet",
     6 => "black",
+    default => "white",
 };
 
 echo $result . PHP_EOL;
