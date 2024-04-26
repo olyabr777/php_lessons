@@ -1,6 +1,6 @@
 <?php 
 
-function number_modify($number){
+function number_modify( int $number ): int{
     $number += 10;
     return $number;
 }
@@ -10,7 +10,7 @@ $result = number_modify($number);
 
 echo($result . PHP_EOL);
 
-function number_modify_link(&$number){
+function number_modify_link(  int &$number ): int{
     $number += 10;
 }
 

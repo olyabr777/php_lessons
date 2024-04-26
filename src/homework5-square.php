@@ -1,9 +1,8 @@
 <?php 
 
-function circle_square($radius){
-    $pi = 3.14159;
-    $result = $pi * $radius * $radius;
-    return $result;
+function circle_square( int|float $radius): float{
+    $radiusSquared = pow($radius, 2);
+    return $pi * $radiusSquared;
 }
 
 echo 'Enter radius' . PHP_EOL;

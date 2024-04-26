@@ -1,6 +1,6 @@
 <?php 
 
-function power($number, $exponent) {
+function power( int|float $number, int $exponent): float {
     $result = pow($number, $exponent);
     return $result;
 }
