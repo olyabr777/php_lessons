@@ -1,7 +1,5 @@
 <?php
 
-
-
 class Dog {
     use AnimalTraits;
 
